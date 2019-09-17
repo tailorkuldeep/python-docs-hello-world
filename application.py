@@ -3,6 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    print("hello world")
-hello()
-
+    return "Hello World!"
